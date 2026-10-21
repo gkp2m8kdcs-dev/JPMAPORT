@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>JPMAPORT — Private Investing Journal</title>
+<meta name="description" content="JPMAPORT (PortfolioX) is a private investing journal for global stock portfolios. Track trades, analyze charts, and keep a disciplined record — all on your device." />
+<style>
+  :root {
+    --bg: #0b1d3a;
+    --bg-2: #102a55;
+    --card: #11335f;
+    --line: #1f4a86;
+    --text: #e8eefc;
+    --muted: #9fb3d1;
+    --green: #2ecc71;
+    --red: #ef4444;
+    --accent: #5aa6ff;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; line-height: 1.6; -webkit-font-smoothing: antialiased; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  header {
+    background: linear-gradient(180deg, #06122a 0%, var(--bg) 100%);
+    padding: 80px 24px 100px;
+    text-align: center;
+    border-bottom: 1px solid var(--line);
+  }
+  .brand {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 96px; height: 96px;
+    background: linear-gradient(135deg, #1d6dd6 0%, #0a2a5e 100%);
+    border-radius: 24px;
+    margin-bottom: 24px;
+    box-shadow: 0 12px 32px rgba(0,0,0,0.4);
+  }
+  .brand span { font-size: 44px; font-weight: 800; color: #fff; letter-spacing: 2px; }
+  header h1 { font-size: 48px; font-weight: 800; letter-spacing: 1px; margin-bottom: 8px; }
+  header .tagline { color: var(--muted); font-size: 18px; max-width: 700px; margin: 0 auto 24px; }
+  .store-badge {
+    display: inline-block;
+    padding: 12px 24px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    color: var(--text);
+    background: rgba(255,255,255,0.04);
+    font-size: 14px;
+    font-weight: 600;
+  }
+  nav {
+    position: sticky; top: 0; z-index: 10;
+    background: rgba(11, 29, 58, 0.92);
+    backdrop-filter: saturate(180%) blur(12px);
+    border-bottom: 1px solid var(--line);
+    padding: 14px 24px;
+    text-align: center;
+  }
+  nav a { margin: 0 14px; font-size: 14px; font-weight: 600; }
+  main { max-width: 980px; margin: 0 auto; padding: 60px 24px; }
+  section { margin-bottom: 56px; }
+  section h2 { font-size: 28px; font-weight: 700; margin-bottom: 16px; color: #fff; }
+  section p { color: var(--muted); margin-bottom: 12px; }
+  section p strong { color: var(--text); }
+  .features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 16px;
+  }
+  .feature {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 24px;
+  }
+  .feature h3 { font-size: 18px; margin-bottom: 8px; color: #fff; }
+  .feature p { font-size: 14px; color: var(--muted); margin: 0; }
+  .privacy-note {
+    background: rgba(46, 204, 113, 0.08);
+    border: 1px solid rgba(46, 204, 113, 0.35);
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-top: 24px;
+  }
+  .privacy-note h3 { color: var(--green); margin-bottom: 8px; font-size: 18px; }
+  .privacy-note p { color: var(--text); font-size: 14px; margin: 0; }
+  footer {
+    border-top: 1px solid var(--line);
+    padding: 32px 24px;
+    text-align: center;
+    color: var(--muted);
+    font-size: 13px;
+  }
+  footer a { color: var(--muted); margin: 0 10px; }
+  footer a:hover { color: var(--text); }
+  @media (max-width: 600px) {
+    header h1 { font-size: 36px; }
+    header .tagline { font-size: 16px; }
+    nav a { margin: 0 8px; font-size: 13px; }
+  }
+</style>
+</head>
+<body>
+  <header>
+    <div class="brand"><span>PX</span></div>
+    <h1>JPMAPORT</h1>
+    <p class="tagline">A private investing journal for global stock portfolios. Track every decision, analyze every trade — all stored locally on your device.</p>
+    <span class="store-badge">Available on the App Store</span>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="privacy.html">Privacy</a>
+    <a href="support.html">Support</a>
+    <a href="terms.html">Terms of Use</a>
+  </nav>
+
+  <main>
+    <section>
+      <h2>What is JPMAPORT?</h2>
+      <p>JPMAPORT (also marketed as <strong>PortfolioX</strong>) is a private investing journal designed for individuals who manage global stock portfolios and want a disciplined, visual record of every decision they make.</p>
+      <p>JPMAPORT is not a broker and not a trading platform. There is no account, no login, no order ticket and no connection to any exchange or custodian. You enter your transactions; JPMAPORT does the bookkeeping so you can think clearly.</p>
+    </section>
+
+    <section>
+      <h2>Key Features</h2>
+      <div class="features">
+        <div class="feature">
+          <h3>Record Every Trade</h3>
+          <p>Log buys and sells with shares, price, fees, currency, date and written rationale. Attach camera photos or library images directly to any trade or note.</p>
+        </div>
+        <div class="feature">
+          <h3>Automatic Cost Basis</h3>
+          <p>Average cost, position size, unrealised and realised results, allocation weight, closed positions and cash balance — all calculated locally.</p>
+        </div>
+        <div class="feature">
+          <h3>Interactive Charts</h3>
+          <p>Candlestick, line and mountain charts drawn entirely on device with no third-party library. Pinch, pan, and switch across seven time ranges.</p>
+        </div>
+        <div class="feature">
+          <h3>Watchlists &amp; Alerts</h3>
+          <p>Build watchlists with notes, tags and personal reference levels. Mark in-app alerts on price, percentage or volume triggers.</p>
+        </div>
+        <div class="feature">
+          <h3>Goals &amp; Calculators</h3>
+          <p>Define savings and accumulation goals with milestones. Use compound growth, position sizing, risk/reward and currency conversion calculators.</p>
+        </div>
+        <div class="feature">
+          <h3>Offline News</h3>
+          <p>Read bundled offline coverage, bookmark stories, and export your entire journal to a plain-text file at any time.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Private by Design</h2>
+      <p>Everything stays on your device. No servers, no tracking, no analytics, no advertising. All reference prices are simulated and illustrative, and nothing in the app constitutes investment advice.</p>
+      <div class="privacy-note">
+        <h3>Tracking Notice</h3>
+        <p>JPMAPORT does <strong>not</strong> track you. The app contains no advertising identifiers, no third-party analytics SDKs, no tracking pixels and no tracking domains. Read the full <a href="privacy.html">Privacy Policy</a> for details.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Need Help?</h2>
+      <p>Questions, feedback or feature requests? Visit our <a href="support.html">Support page</a> or email us at <a href="mailto:becipora79@gmail.com">becipora79@gmail.com</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 JPMAPORT. All rights reserved.</p>
+    <p style="margin-top: 8px;">
+      <a href="index.html">Home</a> ·
+      <a href="privacy.html">Privacy</a> ·
+      <a href="support.html">Support</a> ·
+      <a href="terms.html">Terms of Use</a>
+    </p>
+  </footer>
+</body>
+</html>
